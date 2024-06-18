@@ -1,0 +1,104 @@
+@startuml
+class Form.AddBook
+class Form.Author
+class Form.BookManagement
+class Form.Borrower
+class Form.BorrowingBook
+class Form.DBConnect
+class Form.DashBoardForm
+class Form.LoginForm
+class Form.RegisterBorrow
+class Form.RegisterReturn
+class Form.ReturningBook
+class Form.SignUp
+class com.mysql.cj.jdbc.MysqlDataSource
+class java.awt.Color
+class java.awt.Component
+class java.awt.event.ActionEvent
+class java.awt.event.ActionListener
+class java.lang.Integer
+class java.sql.Connection
+class java.sql.PreparedStatement
+class java.sql.ResultSet
+class java.sql.SQLException
+class java.util.logging.Level
+class java.util.logging.Logger
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+class javax.swing.table.DefaultTableModel
+class javax.swing.table.TableRowSorter
+Form.AddBook ..> java.awt.Color
+Form.AddBook ..> java.lang.Integer
+Form.AddBook ..> java.util.logging.Level
+Form.AddBook ..> java.util.logging.Logger
+Form.AddBook --|> javax.swing.JFrame
+Form.AddBook ..> javax.swing.JOptionPane
+Form.AddBook ..> javax.swing.table.DefaultTableModel
+Form.AddBook ..> javax.swing.table.TableRowSorter
+Form.Author ..> java.awt.Color
+Form.Author --|> javax.swing.JFrame
+Form.Author ..> javax.swing.JOptionPane
+Form.Author ..> javax.swing.table.DefaultTableModel
+Form.Author ..> javax.swing.table.TableRowSorter
+Form.BookManagement ..> java.awt.Color
+Form.BookManagement --|> javax.swing.JFrame
+Form.BookManagement ..> javax.swing.JOptionPane
+Form.BookManagement ..> javax.swing.table.DefaultTableModel
+Form.BookManagement ..> javax.swing.table.TableRowSorter
+Form.Borrower ..> java.awt.Color
+Form.Borrower --|> javax.swing.JFrame
+Form.Borrower ..> javax.swing.JOptionPane
+Form.Borrower ..> javax.swing.table.DefaultTableModel
+Form.Borrower ..> javax.swing.table.TableRowSorter
+Form.BorrowingBook ..> java.awt.Color
+Form.BorrowingBook --|> javax.swing.JFrame
+Form.BorrowingBook ..> javax.swing.JOptionPane
+Form.BorrowingBook ..> javax.swing.table.DefaultTableModel
+Form.BorrowingBook ..> javax.swing.table.TableRowSorter
+Form.DBConnect ..> com.mysql.cj.jdbc.MysqlDataSource
+Form.DBConnect ..> java.sql.Connection
+Form.DBConnect ..> java.sql.SQLException
+Form.DBConnect ..> java.util.logging.Level
+Form.DBConnect ..> java.util.logging.Logger
+Form.DashBoardForm ..> java.awt.Color
+Form.DashBoardForm ..> java.awt.event.ActionEvent
+Form.DashBoardForm ..> java.awt.event.ActionListener
+Form.DashBoardForm --|> javax.swing.JFrame
+Form.LoginForm ..> java.sql.PreparedStatement
+Form.LoginForm ..> java.sql.ResultSet
+Form.LoginForm ..> java.sql.SQLException
+Form.LoginForm ..> java.util.logging.Level
+Form.LoginForm ..> java.util.logging.Logger
+Form.LoginForm --|> javax.swing.JFrame
+Form.LoginForm ..> javax.swing.JOptionPane
+Form.RegisterBorrow ..> java.awt.Color
+Form.RegisterBorrow ..> java.awt.Component
+Form.RegisterBorrow ..> java.sql.Connection
+Form.RegisterBorrow ..> java.sql.PreparedStatement
+Form.RegisterBorrow ..> java.sql.ResultSet
+Form.RegisterBorrow ..> java.sql.SQLException
+Form.RegisterBorrow ..> java.util.logging.Level
+Form.RegisterBorrow ..> java.util.logging.Logger
+Form.RegisterBorrow --|> javax.swing.JFrame
+Form.RegisterBorrow ..> javax.swing.JOptionPane
+Form.RegisterReturn ..> java.awt.Color
+Form.RegisterReturn ..> java.awt.Component
+Form.RegisterReturn ..> java.sql.Connection
+Form.RegisterReturn ..> java.sql.PreparedStatement
+Form.RegisterReturn ..> java.sql.ResultSet
+Form.RegisterReturn ..> java.sql.SQLException
+Form.RegisterReturn ..> java.util.logging.Level
+Form.RegisterReturn ..> java.util.logging.Logger
+Form.RegisterReturn --|> javax.swing.JFrame
+Form.RegisterReturn ..> javax.swing.JOptionPane
+Form.ReturningBook ..> java.awt.Color
+Form.ReturningBook --|> javax.swing.JFrame
+Form.ReturningBook ..> javax.swing.JOptionPane
+Form.ReturningBook ..> javax.swing.table.DefaultTableModel
+Form.ReturningBook ..> javax.swing.table.TableRowSorter
+Form.SignUp ..> java.awt.Color
+Form.SignUp --|> javax.swing.JFrame
+Form.SignUp ..> javax.swing.JOptionPane
+Form.SignUp ..> javax.swing.table.DefaultTableModel
+Form.SignUp ..> javax.swing.table.TableRowSorter
+@enduml
